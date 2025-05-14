@@ -539,7 +539,6 @@ footer .theme-by {
 .page-meta {
   color: #808080;
   font-size: 13px;
-  font-style: italic;
   margin: 0 0 10px;
 }
 
@@ -556,8 +555,7 @@ footer .theme-by {
 
 .post-meta {
   color: #808080;
-  font-size: 13px;
-  font-style: italic;
+  font-size: 11px;
   margin: 0 0 10px;
 }
 
@@ -565,11 +563,11 @@ footer .theme-by {
   display: inline-block;
   width: 100%;
 }
-
 .post-entry {
   width: 100%;
   margin-top: 10px;
-  /* color: #4B4F56;  */
+  color: hsl(222deg, 22%, 5%);
+  /* font-size: 1.1rem; */
 }
 
 .post-image {
@@ -1202,7 +1200,7 @@ ul.share li:hover .fab {
   -webkit-filter: invert(100%) hue-rotate(180deg) brightness(105%) contrast(85%);
 }
 :root[data-theme="dark"] body {
-  background-color: #FFF !important;
+  background-color: #FFF !important;  
 }
 :root[data-theme="dark"] img,
 :root[data-theme="dark"] video,
