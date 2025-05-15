@@ -110,10 +110,10 @@ pagerSize = 6
     weight = 3
 
 
-[[menu.main]]
-    name = "Collections"
-    url = "/collections/"
-    weight = 4
+#[[menu.main]]
+#    name = "Collections"
+#    url = "/collections/"
+#    weight = 4
 
 [[menu.main]]
     name = "About"

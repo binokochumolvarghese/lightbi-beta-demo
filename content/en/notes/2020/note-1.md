@@ -1,7 +1,8 @@
 ---
-Title: Note 2
-Date: 2023-02-22
+Title: Journaling
+Date: 2024-12-22
 Lastmod : 
+Tags: ["ideas", "notes"]
 Image : ""
 Description: "Note the lorum ipsum."
 Draft: 
