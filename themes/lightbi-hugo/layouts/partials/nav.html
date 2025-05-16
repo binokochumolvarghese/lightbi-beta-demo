@@ -44,11 +44,11 @@
             <!-- Language Switcher -->    
             {{ if hugo.IsMultilingual }}
               {{ with .AllTranslations }}
-              <li class="nav-item dropdown">
-                <button class="p-1 bg-light rounded dropdown-toggle border " data-bs-toggle="dropdown" aria-expanded="false"> 
+              <li class="nav-item bg-light dropdown">
+                <button class="p-1 dropdown-toggle border-0 " data-bs-toggle="dropdown" aria-expanded="false"> 
                   {{ $.Language.Lang }} 
                 </button>
-              <ul class="dropdown-menu ">
+              <ul class="dropdown-menu">
                 {{ range . }}
                 {{ if eq .Language.Lang $.Language.Lang }}
                 <li><a class="dropdown-item active" aria-current="page" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>

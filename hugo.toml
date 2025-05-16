@@ -17,6 +17,7 @@ enableRobotsTXT = true
 enableGitInfo = false
 ignoreLogs = ['warning-goldmark-raw-html']
 
+
 [Params]
 selfHosted = true
 mainSections = ["post","posts"]
@@ -37,20 +38,21 @@ description="Your can add your website description here."
 lunrSearch = true
 previewCardImagePlacement = "bottom"
 hidePostImage = false
+tagSubtitle = "Here, you’ll discover the latest notes that explore new insights, and unique perspectives on the world."
 
 [pagination]
 pagerSize = 6
 
 [languages]
   [languages.en]
-    LanguageCode  = "en"
+    LanguageCode  = "EN"
     LanguageName = "English"
     weight = 1
     title = "Lightbi"
     contentDir = "content/en"
 
   [languages.ml]
-    LanguageCode  = "ml"
+    LanguageCode  = "ML"
     LanguageName = "Malayalam"
     weight = 2
     title = "Malayalam Site"
