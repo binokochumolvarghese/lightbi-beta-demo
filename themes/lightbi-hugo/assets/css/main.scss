@@ -172,7 +172,7 @@ img {
 
 
 
-/* --- Navbar --- */
+/* --- Navbar /Menu--- */
 
 @media (max-width: 992px) {
   .fixed-top {
@@ -351,6 +351,9 @@ img {
   }
 }
 
+.dropdown-toggle::after {
+  margin-left: .0;
+}
 
 
 /* --- Search --- */

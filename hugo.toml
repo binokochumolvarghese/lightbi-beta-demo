@@ -55,7 +55,7 @@ pagerSize = 6
     LanguageCode  = "ML"
     LanguageName = "Malayalam"
     weight = 2
-    title = "Malayalam Site"
+    title = "മലയാളം"
     contentDir = "content/ml"
 
 [Params.Author]
