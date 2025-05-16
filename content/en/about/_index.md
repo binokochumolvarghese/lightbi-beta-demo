@@ -6,9 +6,9 @@ subtitle: "Let's talk more about me, maybe you find the magic."
 
 I am Bruce Kochumol Varghese.
 
-![Image](/img/about/about-2.jpg)
-
 I’m a software developer with over a decade of experience crafting thoughtful, user-centric applications across the web. Over the years, I’ve worked with a diverse stack of technologies — from front-end frameworks like React and Angular, to back-end environments like Express.js, and databases powered by SQL. I thrive on building clean, scalable solutions that don’t just work — they feel right.
+
+![Image](/img/about/about-2.jpg)
 
 But coding is only half the story.
 
@@ -20,7 +20,8 @@ I’m deeply passionate about design and creativity. Whether it’s fine-tuning 
 - Browser of Choice: Firefox — clean, fast, developer-friendly
 - Favorite Device: My trusty MacBook — where most of the magic happens
 
-![Image](/img/about/about-3.jpg)
+
+{{< img_gallery folder="img/about/about-gallery/"  >}}
 
 ## Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.
 

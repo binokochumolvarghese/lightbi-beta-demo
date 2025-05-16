@@ -52,7 +52,6 @@
 
               <h4 class="tags-subheading fw-light mb-4">
                 {{ .Site.Params.tagSubtitle }}</h4>
-              <div class="pb-4"></div>
             </div>
             {{ else }}
 
@@ -74,10 +73,8 @@
             {{ if $subtitle }}
             {{ if eq .Type "page" }}
             <span class="{{ .Type }}-subheading fw-light mb-4">{{ $subtitle }}</span>
-            <div class="pb-4"></div>
             {{ else }}
             <h4 class="{{ .Type }}-subheading fw-light mb-4">{{ $subtitle }}</h4>
-            <div class="pb-4"></div>
             {{ end }}
             {{ end }}
 

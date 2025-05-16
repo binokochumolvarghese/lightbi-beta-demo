@@ -1,11 +1,15 @@
 ---
-Title: Improves understanding and retention
-Date: 2023-02-22
+Title: Understanding Creative design
+Date: 2024-12-12
 Lastmod : 
 Image : ""
-Tags: ["ideas", "notes"]
+Tags: ["design", "notes"]
 Description: "Note the lorum ipsum."
 Draft: 
 ---
-Writing things down helps you process information more deeply, making it easier to understand and remember compared to passive listening or reading.
+Creative design is the art of solving problems and communicating ideas through visually compelling and imaginative means. It blends aesthetics with functionality, ensuring a message is not only seen but felt. At its core, creative design involves thinking beyond templates and conventional structures to craft original, meaningful solutions. 
+
+{{< img_gallery folder="img/about/about-gallery/"  >}}
+
+It can manifest in everything from websites and branding to packaging and user interfaces. Good creative design evokes emotion, tells a story, and reflects the identity of a product or person. It’s where innovation meets intention, turning ideas into impactful visual experiences.
  
