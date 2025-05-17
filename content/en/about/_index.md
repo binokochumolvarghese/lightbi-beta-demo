@@ -4,7 +4,7 @@ title: "About me"
 subtitle: "Let's talk more about me, maybe you find the magic."
 ---
 
-I am Bruce Kochumol Varghese.
+I am Bruce Kochumol Varghese. A software developer, and alter ego of Bino.
 
 I’m a software developer with over a decade of experience crafting thoughtful, user-centric applications across the web. Over the years, I’ve worked with a diverse stack of technologies — from front-end frameworks like React and Angular, to back-end environments like Express.js, and databases powered by SQL. I thrive on building clean, scalable solutions that don’t just work — they feel right.
 

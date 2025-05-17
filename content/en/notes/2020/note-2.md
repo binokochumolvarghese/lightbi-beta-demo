@@ -1,6 +1,6 @@
 ---
 Title: Understanding Creative design
-Date: 2024-12-12
+Date: 2024-12-02
 Lastmod : 
 Image : ""
 Tags: ["design", "notes"]

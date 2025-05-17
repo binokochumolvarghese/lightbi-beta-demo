@@ -1,6 +1,6 @@
 ---
 Title: Why you should take notes
-Date: 2024-11-22
+Date: 2024-12-22
 Lastmod : 
 Tags: ["ideas", "notes"]
 Image : ""
