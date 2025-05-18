@@ -3,7 +3,7 @@
         <a href="{{ .Permalink }}" aria-label="Link to {{ .Title }}">
             <div class="card-body">
 
-                <h4 class="fw-medium post-title">{{ .Title }}</h4>
+                <h3 class="fw-medium post-title">{{ .Title }}</h3>
                 {{ if .Params.subtitle }}
                 <h3 class="post-subtitle">
                     {{ .Params.subtitle }}
@@ -11,7 +11,7 @@
                 {{ end }}
 
                 <p class="post-meta">
-                    {{ partial "page_meta.html" . }}
+                    {{ partial "post_meta_notes.html" . }}
                 </p>
                 {{ print }}
 

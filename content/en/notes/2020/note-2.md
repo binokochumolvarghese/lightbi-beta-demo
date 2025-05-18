@@ -4,7 +4,7 @@ Date: 2024-12-02
 Lastmod : 
 Image : ""
 Tags: ["design", "notes"]
-Description: "Note the lorum ipsum."
+Description: "Creative design is the art of solving problems and communicating ideas through visually compelling and..."
 Draft: 
 ---
 Creative design is the art of solving problems and communicating ideas through visually compelling and imaginative means. It blends aesthetics with functionality, ensuring a message is not only seen but felt. At its core, creative design involves thinking beyond templates and conventional structures to craft original, meaningful solutions. 

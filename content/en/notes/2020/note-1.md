@@ -4,7 +4,7 @@ Date: 2024-12-22
 Lastmod : 
 Tags: ["ideas", "notes"]
 Image : ""
-Description: "Note the lorum ipsum."
+Description: "Journaling is a powerful habit that helps you understand your thoughts and emotions more clearly...."
 Draft: 
 ---
 Journaling is a powerful habit that helps you understand your thoughts and emotions more clearly. By putting pen to paper, you create space to reflect, process, and grow from your daily experiences. 

@@ -4,7 +4,7 @@ Date: 2024-12-22
 Lastmod : 
 Tags: ["ideas", "notes"]
 Image : ""
-Description: "Here are six reasons why you should take notes..."
+Description: "Here are six reasons why you should take notes. Boosts memory, Clarifies thinking, Keeps you organized..."
 Draft: 
 ---
 
