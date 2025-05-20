@@ -12,7 +12,7 @@
 - id: translationsSeparator
   translation: ", "
 - id: readMore
-  translation: "You may also like"
+  translation: "Read more"
 - id: olderPosts
   translation: "Older Posts"
 - id: newerPosts
