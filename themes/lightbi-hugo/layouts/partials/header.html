@@ -24,6 +24,7 @@
         <!-- To display the main headings to the full -->
           {{ if or ( eq .Type "tags")
           ( eq .Section "blog")
+          ( eq .Section "posts")
           ( eq .Section "notes")
           ( eq .Section "now")
           ( eq .Section "about")

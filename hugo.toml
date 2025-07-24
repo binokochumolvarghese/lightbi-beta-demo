@@ -41,7 +41,7 @@ hidePostImage = false
 tagSubtitle = "Here, you’ll discover the latest notes that explore new insights, and unique perspectives on the world."
 homepageLayout = "profile"
 profileShortbio = "I’m passionate about the web platform and love creating for the web. Here, you'll find a mix of long essays, quick notes, and personal reflections on what I’ve learned throughout my journey."
-profilePhoto = "img/profile/profile-author-photo.jpg"
+profilePhoto = "img/profile/home-profile-pic.jpg"
 
 [pagination]
 pagerSize = 6

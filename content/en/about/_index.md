@@ -36,3 +36,9 @@ I’m also a big believer in stepping away from the screen:
 
 Every new place I visit, every story I read, and every tune I play adds a layer to how I approach both life and software.
 
+#### ☎️ Contact me
+
+You can email me at **sample@gmail.com** or connect with me on [X](), [Instagram](), and [LinkedIn]().
+
+Thank you for visiting my home!
+

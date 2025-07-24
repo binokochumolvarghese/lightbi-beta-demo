@@ -1,4 +1,4 @@
 ---
 Title: "Blog"
-subtitle : "A collection of essays, notes, and ideas."
+subtitle : "A growing collection of ideas, notes, and written explorations."
 ---
