@@ -12,7 +12,7 @@
 
         <p class="fw-light">If you're new here, feel free to explore the website by clicking the below button.</p>
 
-        <a href="/about/" class="">
+        <a href="{{ relLangURL "/about/" }}"  class="">
           <button type="button" class="btn btn-success bg-cgreen">Explore</button>
         </a>
       </div>
@@ -24,17 +24,10 @@
           src="{{ .RelPermalink }}" 
           alt="Image of Author"
           class="img-fluid avatar"
-          style="max-width: 200px;"
+          style="max-width: 250px;"
         >
-      {{ else }}
-        <p class="text-danger">Profile image not found: {{ $imgPath }}</p>
       {{ end }}
     </div>
-
-
-
-
-
   </div>
   </section>
 
@@ -62,9 +55,11 @@
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4">
         <div class="row">
-          <div class="col-sm-12  col-md-12 col-lg-6 col-xl-6 mb-4">
-            <a href="/coder-space/" class="link-underline">Browse all <i class="bi bi-arrow-right"></i> </a>
-          </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-4">
+          <a href="{{ relLangURL " /posts/" }}" class="link-underline position-relative d-inline-block">
+            Browse all <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
         </div>
       </div>
     </div>
@@ -72,8 +67,9 @@
   </section>
 
 
-
-  <section class="">
+{{ range .Site.Sections }}
+  {{ if eq .Section "notes" }}
+  <section class="notes-section">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4 mt-4">
@@ -97,15 +93,15 @@
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4">
           <div class="row">
             <div class="col-sm-12  col-md-12 col-lg-6 col-xl-6 mb-4">
-              <a href="/writer-space/" class="link-underline">Browse all <i class="bi bi-arrow-right"></i> </a>
+              <a href="{{ relLangURL "/notes/" }}" class="link-underline position-relative d-inline-block">Browse all <i class="bi bi-arrow-right"></i> </a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-
+{{ end }}
+{{ end }}
 
 
 </div>

@@ -1,5 +1,5 @@
 baseURL = "https://lightbi-beta-demo.netlify.app/"
-DefaultContentLanguage = "en"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 languageCode = "en"
 title = "Lightbi"
@@ -39,7 +39,7 @@ lunrSearch = true
 previewCardImagePlacement = "bottom"
 hidePostImage = false
 tagSubtitle = "Here, you’ll discover the latest notes that explore new insights, and unique perspectives on the world."
-homepageLayout = "profile"
+homepageLayout = "profile" #blog
 profileShortbio = "I’m passionate about the web platform and love creating for the web. Here, you'll find a mix of long essays, quick notes, and personal reflections on what I’ve learned throughout my journey."
 profilePhoto = "img/profile/home-profile-pic.jpg"
 
@@ -52,14 +52,14 @@ pagerSize = 6
     LanguageName = "English"
     weight = 1
     title = "Lightbi"
-    contentDir = "content/en"
+    contentDir = "content/en/"
 
   [languages.ml]
     LanguageCode  = "ML"
     LanguageName = "Malayalam"
     weight = 2
     title = "മലയാളം"
-    contentDir = "content/ml"
+    contentDir = "content/ml/"
 
 [Params.Author]
   name = "Bino Kochumol Varghese"
@@ -129,6 +129,5 @@ pagerSize = 6
     name = "About"
     url = "/about/"
     weight = 6
-
 
 
