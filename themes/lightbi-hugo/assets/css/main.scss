@@ -8,14 +8,31 @@
 
 @import "fonts.scss";
 
+// Variables
+:root {
+  --color-primary: #2e7d32;         // Forest Green
+  --color-primary-dark: #1b5e20;
+  --color-accent: #d4a373;          // Warm sand/tan
+
+  --color-text: #222222;
+  --color-heading: #111111;
+  --color-subtle: #666666;
+
+  --color-bg: #ffffff;
+  --color-bg-muted: #fefcf7;
+  --color-border: #dedede;
+  --color-underline: rgba(0, 0, 0, 0.2);
+}
+
+
 /* --- General --- */
 
 body {
   font-size: 1.2rem;
   font-family: 'Inter', sans-serif;
-  color: #344854;
+  color: var(--color-text);
   position: relative;
-  background: #FFFFFF;
+  background: var(--color-bg);
   display: flex;
   flex-flow: column;
   min-height: 100vh;
@@ -43,16 +60,26 @@ p+p {
 }
 
 p a {
-  color: #008AFF;
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-underline-offset: .40rem;
+    text-decoration-color: rgba(0, 0, 0, .25);
+}
+
+p a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-underline-offset: .40rem;
+    text-decoration-color: #000;
 }
 
 
 li a {
-  color: #008AFF;
+  color: var(--color-primary);
 }
 
 a {
-  color: #4B4F56;
+  color: var(--color-text);
   text-decoration: none;
 }
 
@@ -541,7 +568,7 @@ footer .theme-by {
 .post-title:focus,
 .post-title:hover {
   text-decoration: none;
-  color: #2ec458
+  color: var(--color-primary);
     /* #FF0000;  */
 }
 
