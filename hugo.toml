@@ -35,13 +35,14 @@ Lastmod = false
 rss = true 
 pagination = "10"
 description="Your can add your website description here."
-lunrSearch = true
+# lunrSearch removed — Pagefind is used instead (run: hugo && npx pagefind --source public)
 previewCardImagePlacement = "bottom"
 hidePostImage = false
 tagSubtitle = "Here, you’ll discover the latest notes that explore new insights, and unique perspectives on the world."
 homepageLayout = "profile" #blog
 profileShortbio = "I’m passionate about the web platform and love creating for the web. Here, you'll find a mix of long essays, quick notes, and personal reflections on what I’ve learned throughout my journey."
 profilePhoto = "img/profile/home-profile-pic.jpg"
+toc = false
 
 [pagination]
 pagerSize = 6
@@ -93,6 +94,11 @@ pagerSize = 6
   #soundcloud = "username"
   # codepen = "username"
 
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 4
+  ordered = false
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
@@ -128,6 +134,47 @@ pagerSize = 6
 [[menu.main]]
     name = "About"
     url = "/about/"
+    weight = 6
+
+[[menu.main]]
+    name = "More"
+    identifier = "more"
+    weight = 7
+
+[[menu.main]]
+    parent = "more"
+    name = "Uses"
+    url = "/uses/"
+    weight = 1
+
+[[menu.main]]
+    parent = "more"
+    name = "Now"
+    url = "/now/"
+    weight = 2
+
+[[menu.main]]
+    parent = "more"
+    name = "For"
+    url = "/for/"
+    weight = 3
+
+[[menu.main]]
+    parent = "more"
+    name = "Changelog"
+    url = "/changelog/"
+    weight = 4
+
+[[menu.main]]
+    parent = "more"
+    name = "Credits"
+    url = "/credits/"
+    weight = 5
+
+[[menu.main]]
+    parent = "more"
+    name = "Disclaimer"
+    url = "/disclaimer/"
     weight = 6
 
 
