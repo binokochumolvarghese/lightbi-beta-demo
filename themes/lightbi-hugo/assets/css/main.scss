@@ -23,6 +23,8 @@
   --color-border: #dedede;
   --color-underline: rgba(0, 0, 0, 0.2);
 
+  --color-section-primary-bg: #fafafa; // Light gray background for sections
+
   --card-shadow: 0 1px 4px rgba(0, 0, 0, 0.05), 0 4px 16px rgba(0, 0, 0, 0.05);
   --card-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.09), 0 14px 32px rgba(0, 0, 0, 0.11);
   --card-radius: 0.875rem;
@@ -220,6 +222,10 @@ img {
 
 .link-underline:hover::before {
   transform: scaleX(1);
+}
+
+.section-primary-bg{
+  background-color: var(--color-section-primary-bg);
 }
 
 /* --- Navbar /Menu--- */
@@ -527,7 +533,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   footer {
-    padding: 50px 0;
+    padding: 35px 0;
   }
 
   footer .footer-links {

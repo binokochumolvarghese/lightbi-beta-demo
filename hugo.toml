@@ -1,7 +1,7 @@
 baseURL = "https://lightbi-beta-demo.netlify.app/"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-languageCode = "en"
+locale = "en"
 title = "Lightbi"
 theme = "lightbi-hugo"
 summaryLength  = "30"
@@ -49,15 +49,15 @@ pagerSize = 6
 
 [languages]
   [languages.en]
-    LanguageCode  = "EN"
-    LanguageName = "English"
+    locale  = "EN"
+    label = "English"
     weight = 1
     title = "Lightbi"
     contentDir = "content/en/"
 
   [languages.ml]
-    LanguageCode  = "ML"
-    LanguageName = "Malayalam"
+    locale  = "ML"
+    label = "Malayalam"
     weight = 2
     title = "മലയാളം"
     contentDir = "content/ml/"
