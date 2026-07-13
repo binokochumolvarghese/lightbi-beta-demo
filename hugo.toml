@@ -34,7 +34,7 @@ gcse = false
 Lastmod = false
 rss = true 
 pagination = "10"
-description="Your can add your website description here."
+description="You can add your website description here."
 # lunrSearch removed — Pagefind is used instead (run: hugo && npx pagefind --source public)
 previewCardImagePlacement = "bottom"
 hidePostImage = false
